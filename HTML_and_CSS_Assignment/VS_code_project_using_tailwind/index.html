@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vscode</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #navlist {
+            position: relative;
+        }
+
+        #navlist li {
+            margin: 2%;
+            padding: 0;
+            list-style: none;
+            position: absolute;
+            top: 0;
+        }
+
+        #navlist li, #navlist a {
+            height: 50px;
+            display: block;
+        }
+        #IntelliSense{
+            left: 15%;
+            width: 46px;
+            background: url('./assets/valueprops-top-sprite.svg') 0 0;
+        }
+        #Run_and_Debug{
+            left: 35%;
+            width: 55px;
+            background: url('./assets/valueprops-top-sprite.svg') -47px 0;
+        }
+        #Built-in_Git{
+            left: 55%;
+            width: 50px;
+            background: url('./assets/valueprops-top-sprite.svg') -105px 0;
+        }
+        #Extensions{
+            left: 75%;
+            width: 55px;
+            background: url('./assets/valueprops-top-sprite.svg') -155px 0;  
+        }
+        #IntelliSense a:hover {
+            background: url('./assets/valueprops-top-sprite.svg') 0 -53px;
+        }
+        #Run_and_Debug a:hover {
+            background: url('./assets/valueprops-top-sprite.svg') -47px -53px;
+        }
+        #Built-in_Git a:hover {
+            background: url('./assets/valueprops-top-sprite.svg') -105px -53px;
+        }
+        #Extensions a:hover {
+            background: url('./assets/valueprops-top-sprite.svg') -155px -53px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-zinc-800 text-white flex items-center justify-center justify-evenly sticky top-0 z-50">
+        <div class="flex items-center">
+            <img class="mx-4 pt-1" src="./assets/vscode icon.png" alt="vscodelogo" height="35px" width="35px">
+            <ul class="flex items-center">
+                <li class="text-2xl pt-1">Visual Studio Code</li>
+                <li class="ml-8 pt-2 text-gray-400">Docs</li>
+                <li class="ml-8 pt-2 text-gray-400">Updates</li>
+                <li class="ml-8 pt-2 text-gray-400">Blog</li>
+                <li class="ml-8 pt-2 text-gray-400">API</li>
+                <li class="ml-8 pt-2 text-gray-400">Extensions</li>
+                <li class="ml-8 pt-2 text-gray-400">FAQ</li>
+                <li class="ml-8 pt-2 text-gray-400">Learn</li>
+            </ul>
+        </div>
+        <div class="flex items-center">
+            <img class="relative left-9 pr-1 pl-0.5" src="./assets/search.svg" alt="search-icon" height="20px" width="20px">
+            <button class="bg-gray-700 text-gray-400 rounded-none pl-10 pr-16 py-5">Search Docs</button>
+            <button class="bg-blue-600 rounded-none pl-10 pr-4 py-5">Download</button>
+            <img class="absolute right-56 pr-1 pl-0.5" src="./assets/download.svg" alt="download-icon" height="22px" width="22px">
+        </div>
+    </nav>
+    <main>
+        <div class="bg-zinc-800 text-white">
+            <div>
+                <p class="bg-zinc-900 text-center py-3"><span class="text-blue-500">Version 1.76</span> is now available! Read about the new features and fixes from February.</p>
+                <span class="fixed bottom-1 right-1 bg-zinc-900 py-3 text-white px-3 rounded-lg">For Educational Purpose Only</span>
+            </div>
+            <div class="flex items-center px-40 py-5">
+                <div class="w-2/3 mb-28">
+                    <h1 class="text-6xl">Code editing.</h1>
+                    <h2 class="text-6xl font-bold px-5">Redefined.</h2>
+                    <p class="pt-3 text-gray-400">Free. Built on open source. Runs everywhere.</p>
+                        <div class="flex items-center gap-1 mt-6">
+                        <button class="bg-blue-600 rounded-none px-3 py-1 w-60 text-lg">Download for Windows <span class="text-sm">Stable Build</span></button>
+                        <button class="bg-blue-600 rounded-none text-2xl px-1/2 py-1/2"><img src="./assets/icons8-expand-arrow-64.png" alt="drop-down"></button>
+                </div>
+                <img class="absolute left-[27.5%] bottom-[35%]" src="./assets/icons8-up-arrow-32.png" alt="up-arrow" width="40px">
+                <button class="bg-black pl-4 pr-7 py-2 mt-4 rounded-lg text-blue-500 text-sm">Web, insiders edition, <span class="text-white">or</span> other platforms</button>
+                <p class="pt-3 pl-16 text-gray-400 text-xs w-64">By using VS Code, you agree to its <span class="pt-3 text-blue-500 text-xs">license and privacy statement.</span></p> 
+            </div>
+            <div class="w-100">
+                    <img src="./assets/home-screenshot-win.png" alt="home-screenshot">
+            </div>
+        </div>
+        </div>
+        <div class="h-48">
+            <ul id="navlist">
+                <li id="IntelliSense"><a href="./assets/HD_transparent_picture.png" rel="IntelliSense"></a></li>
+                <li id="Run_and_Debug"><a href="./assets/HD_transparent_picture.png"></a></li>
+                <li id="Built-in_Git"><a href="./assets/HD_transparent_picture.png"></a></li>
+                <li id="Extensions"><a href="./assets/HD_transparent_picture.png"></a></li>
+            </ul>
+            <div class="flex justify-evenly py-[10px] text-xl text-gray-700">
+                <p class="relative top-20 left-3">IntelliSense</p>
+                <p class="relative top-20 right-5">Run and Debug</p>
+                <p class="relative top-20 right-14">Built in Git</p>
+                <p class="relative top-20 right-14">Extensions</p>
+            </div>  
+        </div>
+        <div class="bg-slate-100 flex items-center justify-center gap-4">
+            <img src="./assets/icons8-chevron-left-60.png" alt="chevron-left" height="32px" width="32px">
+            <div class="flex items-center py-[5%]">
+                <img class="relative bottom-16 rounded-full w-[5.2rem]" src="./assets/Una.jpg" alt="Una">
+                <div class="mx-2">
+                    <img class="relative top-5 left-64" src="./assets/icons8-twitter-16.png" alt="twitter">
+                    <h1 class="font-bold">Una Kravets<small class="text-gray-500 pl-2">@Una</small></h1>
+                    <p class="text-lg text-gray-700">VS <span class="text-blue-500">@code</span> does so many things<br>right. I’m constantly impressed by<br>the UX, and customizing<br>workspace / user preferences is<br>no exception. 🙌🏼💯 It just keeps<br>getting better ❤️</p>
+                </div>
+            </div>
+            <div class="flex items-center py-[5%]">
+                <img class="relative bottom-16 rounded-full w-[5.2rem]" src="./assets/jadbox.jpg" alt="Jonathan-Dunlap">
+                <div class="mx-2">
+                    <img class="relative top-5 left-64" src="./assets/icons8-twitter-16.png" alt="twitter">
+                    <h1 class="font-bold">Jonathan Dunlap<small class="text-gray-500 pl-2">@jadbox</small></h1>
+                    <p class="text-lg text-gray-700">VS Code will have deep remote<br>development. You can connect to<br>a container running a different<br>OS and use any VS Code plugins,<br>linting, debugging for that<br>environment. 🔥🔥🔥</p>
+                </div>
+            </div>
+            <div class="flex items-center py-[5%]">
+                <img class="relative bottom-16 rounded-full w-[5.2rem]" src="./assets/PKodmad.jpg" alt="PKodmad">
+                <div class="mx-2">
+                    <img class="relative top-5 left-64" src="./assets/icons8-twitter-16.png" alt="twitter">
+                    <h1 class="font-bold">Pavithra Kodmad<small class="text-gray-500 pl-2">@PKodmad</small></h1>
+                    <p class="text-lg text-gray-700">VS Code is my most used and<br>favorite editor. I love being able<br>to customize the editor -<br>changing the layout, the icons,<br>fonts and color scheme is so<br>easy!</p>
+                </div>
+                <img src="./assets/icons8-chevron-left-60 (1).png" alt="chevron-right" height="32px" width="32px">
+            </div>
+        </div>
+        <div class="flex justify-center mx-46 my-[5%]">
+            <img src="./assets/home-intellisense.svg" alt="intellisense">
+            <div class="ml-40">
+                <h1 class="text-3xl text-gray-700">Meet IntelliSense.</h1>
+                <p class="text-lg text-gray-700 mt-10">Go beyond syntax highlighting and autocomplete with IntelliSense, which</p>
+                <p class="text-lg text-gray-700 mt-2">provides smart completions based on variable types, function definitions, and</p><p class="text-lg text-gray-700 mt-2">imported modules.</p>
+            </div>
+        </div>
+        <div class="bg-slate-100">
+            <div class="flex justify-center py-[5%]">
+                <div class="mr-40">
+                    <h1 class="text-3xl text-gray-700">Print statement debugging is a thing of the past.</h1>
+                    <p class="text-lg text-gray-700 mt-10">Debug code right from the editor. Launch or attach to your running apps and</p>
+                    <p class="text-lg text-gray-700 mt-2">debug with break points, call stacks, and an interactive console.</p>
+                </div>
+                <img src="./assets/home-debug.svg" alt="debug">
+            </div>
+        </div>
+        <div class="flex justify-center mx-46 my-[5%]">
+            <img src="./assets/home-git.svg" alt="home-git">
+            <div class="ml-40">
+                <h1 class="text-3xl text-gray-700">Git commands built-in.</h1>
+                <p class="text-lg text-gray-700 mt-10">Working with Git and other SCM providers has never been easier. Review diffs,</p>
+                <p class="text-lg text-gray-700 mt-2">stage files, and make commits right from the editor. Push and pull from any</p><p class="text-lg text-gray-700 mt-2">hosted SCM service.</p>
+            </div>
+        </div>
+        <div class="bg-slate-100">
+            <div class="flex justify-center py-[5%]">
+                <div class="mr-52">
+                    <h1 class="text-3xl text-gray-700">Extensible and customizable.</h1>
+                    <p class="text-lg text-gray-700 mt-10">Want even more features? Install extensions to add new languages, themes,</p>
+                    <p class="text-lg text-gray-700 mt-2">debuggers, and to connect to additional services. Extensions run in separate</p>
+                    <p class="text-lg text-gray-700 mt-2">processes, ensuring they won't slow down your editor. <span class="text-blue-500">Learn more about</span></p>
+                    <p class="text-lg text-gray-700 mt-2"><span class="text-blue-500">extensions.</span></p>
+                </div>
+                <img class="w-80" src="./assets/Hundreds-of-Extensions.png" alt="extensions">
+            </div>
+        </div>
+        <div class="flex justify-center mx-46 my-[5%]">
+            <img src="./assets/home-azure.svg" alt="home-azure">
+            <div class="ml-40">
+                <h1 class="text-3xl text-gray-700">Deploy with confidence and ease</h1>
+                <p class="text-lg text-gray-700 mt-10">With <span class="text-blue-500">Microsoft Azure</span> you can deploy and host your React, Angular, Vue, Node,</p>
+                <p class="text-lg text-gray-700 mt-2">Python (and more!) sites, store and query relational and document based data,</p><p class="text-lg text-gray-700 mt-2">and scale with serverless computing, all with ease, <span class="text-blue-500">all from within VS Code.</span></p>
+            </div>
+        </div>
+        <div class="bg-slate-100 pt-[5%] pb-[10%]">
+            <h1 class="text-3xl text-gray-700 flex justify-center">VS Code for</h1>
+            <div class="grid grid-rows-2 grid-cols-6 gap-4 mx-[15%] mt-10 mb-5">
+                <div class="flex items-center">
+                    <img src="./assets/javascript.svg" alt="javascript">
+                    <p class="text-lg text-gray-700">JavaScript</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/python.svg" alt="Python">
+                    <p class="text-lg text-gray-700">Python</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/java.svg" alt="Java">
+                    <p class="text-lg text-gray-700">Java</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/markdown.svg" alt="Markdown">
+                    <p class="text-lg text-gray-700">Markdown</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/typescript.svg" alt="TypeScript">
+                    <p class="text-lg text-gray-700">TypeScript</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/cpp.svg" alt="C/C++">
+                    <p class="text-lg text-gray-700">C/C++</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/json.svg" alt="JSON">
+                    <p class="text-lg text-gray-700">JSON</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/powershell.svg" alt="Powershell">
+                    <p class="text-lg text-gray-700">Powershell</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/html.svg" alt="HTML/CSS">
+                    <p class="text-lg text-gray-700">HTML/CSS</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/csharp.svg" alt="C#">
+                    <p class="text-lg text-gray-700">C#</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/php.svg" alt="PHP">
+                    <p class="text-lg text-gray-700">PHP</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/yaml.svg" alt="YAML">
+                    <p class="text-lg text-gray-700">YAML</p>
+                </div>
+            </div>
+            <p class="flex justify-center text-blue-500 text-lg">and many more languages on the Marketplace...</p>
+            <button class="absolute left-[43%] bg-blue-600 rounded-none text-white text-xl font-semibold px-10 py-4 my-10">Get Started Now</button>
+        </div>
+        <div class="flex justify-center justify-evenly my-20">
+        <div>
+            <img class="mx-16" src="./assets/windows-logo.png" alt="windows-logo" width="100px" height="82px">
+            <button class="bg-blue-600 rounded-none text-white text-lg my-[20px] pr-[30%] pb-2 text-right w-[240px]"><img class="relative top-6 left-[60px]" src="./assets/download.svg" alt="download-icon" height="20px" width="20px">Windows<br><small class="text-slate-200 text-xs">Windows 8, 10, 11</small></button>
+            <table class="mx-3">
+                <tr>
+                    <td><h1 class="font-semibold text-gray-600 text-center mr-1">User Installer</h1></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">x64</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">x86</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm64</button></td>
+                </tr>
+                <tr>
+                    <td><h1 class="font-semibold text-gray-600 text-center mr-1">System Installer</h1></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">x64</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">x86</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm64</button></td>
+                </tr>
+                <tr>
+                    <td><h1 class="font-semibold text-gray-600 text-center mr-1">.zip</h1></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">x64</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">x86</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm64</button></td>
+                </tr>
+                <tr class="relative top-3">
+                    <td><h1 class="font-semibold text-gray-600 text-center mr-1">CLI</h1></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">x64</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">x86</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm64</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="relative bottom-5">
+            <img class="ml-24" src="./assets/linux-logo.png" alt="linux-logo" width="100px" height="82px">
+            <button class="bg-blue-600 rounded-none text-white text-lg mt-[20px] mb-[5px] text-right w-[147px] pr-[30px] pl-[5px] pb-2"><img class="relative top-6 left-10" src="./assets/download.svg" alt="download-icon" height="20px" width="20px">.deb<br><small class="text-slate-200  text-xs">Debian, Ubuntu</small></button>
+            <button class="bg-blue-600 rounded-none text-white text-lg mt-[20px] mb-[5px] text-right w-[155px] pr-6 pb-2"><img class="relative top-6 left-[60px]" src="./assets/download.svg" alt="download-icon" height="20px" width="20px">.rpm<br><small class="text-slate-200 text-xs">Red Hat, Fedora, SUSE</small></button>        
+            <table class="ml-8 mt-3">
+                <tr>
+                    <td><h1 class="relative left-[45px] font-semibold text-gray-600">.deb</h1></td>
+                    <td><button class="relative left-[39px] bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px]">x64</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm32</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm64</button></td>
+                </tr>
+                <tr>
+                    <td><h1 class="relative left-[42px] font-semibold text-gray-600">.rpm</h1></td>
+                    <td><button class="relative left-[39px] bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px]">x64</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm32</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm64</button></td>
+                </tr>
+                <tr>
+                    <td><h1 class="relative left-[35px] font-semibold text-gray-600">.tar.gz</h1></td>
+                    <td><button class="relative left-[39px] bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px]">x64</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm32</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm64</button></td>
+                </tr>
+                <tr>
+                    <td><h1 class="relative left-[37px] font-semibold text-gray-600 text-center mr-1">Snap</h1></td>
+                    <td><button class="relative left-[39px] bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px]">Snap Store</button></td>
+                </tr>
+                <tr class="relative top-3">
+                    <td><h1 class="relative left-[38px] font-semibold text-gray-600 text-center mr-1">CLI</h1></td>
+                    <td><button class="relative left-[39px] bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px]">x64</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm32</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Arm64</button></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <img class="mx-16" src="./assets/apple-logo.svg" alt="apple-logo">
+            <button class="bg-blue-600 rounded-none text-white text-lg my-[20px] pr-[32%] pb-2 text-right w-[240px]"><img class="relative top-6 left-24" src="./assets/download.svg" alt="download-icon" height="20px" width="20px">Mac<br><span class="text-xs">macOS 10.11+</span></button>
+            <table class="mx-3">
+                <tr>
+                    <td><h1 class="font-semibold text-gray-600 text-center mr-1">.zip</h1></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Intel chip</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Apple silicon</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Universal</button></td>
+                </tr>
+                <tr class="relative top-3">
+                    <td><h1 class="font-semibold text-gray-600 text-center mr-1">CLI</h1></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Intel chip</button></td>
+                    <td><button class="bg-blue-600 text-white rounded-sm text-xs px-[3px] py-[1px] mx-[1px]">Apple silicon</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="py-12 bg-slate-100">
+        <div class="flex justify-evenly">
+            <div>
+                <h1 class="text-xl font-semibold text-gray-900">Want new features sooner?</h1>
+                <p class="text-lg text-gray-700 my-2">Get the <span class="text-blue-500">Insiders build</span> instead.</p>
+            </div>
+            <div>
+                <h1 class="text-xl font-semibold text-gray-900 text-center">Use  <span class="text-blue-500">vscode.dev</span> for quick edits <br>online!</h1>
+                <p class="text-lg text-gray-700 my-2">GitHub, Azure Repos, and local files.</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <h1 class="text-gray-600 font-semibold">License and Privacy Terms</h1>
+            <p class="text-gray-600 text-sm pt-4">By downloading and using Visual Studio Code, you agree to the <span class="text-blue-500">license terms</span> and <span class="text-blue-500">privacy statement</span>. VS Code</p>
+            <p class="text-gray-600 text-sm pt-4">automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not</p>
+            <p class="text-gray-600 text-sm pt-4">to have this data sent please go see <span class="text-blue-500">How to Disable Crash Reporting</span> to learn how to disable it.</p>
+        </div>
+    </div>
+    </main>
+    <footer class="bg-zinc-800 text-slate-50 text-sm flex items-center justify-evenly py-8">
+        <div>
+            <ul class="flex items-center">
+                <li class="mx-4">Hello from Seattle.</li>
+                <li class="mx-4">Follow @code</li>
+                <li class="mx-4">
+                    <button class="bg-white text-black font-bold rounded text-xs py-[4px] pl-[20px] pr-[2px]"><img class="absolute left-[33.2%]" src="./assets/icons8-github-24.png" alt="github" height="20px" width="20px">Star</button>
+                    <button class="bg-white text-black font-bold rounded text-xs px-[8px] py-[4px] ml-1"><img class="absolute left-[36.2%]" src="./assets/icons8-left-arrow-24.png" alt="left-arrow" height="10px" width="15px">143,415</button>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="flex items-center text-xs">
+                <li class="mx-4">Support</li>
+                <li class="mx-4">Privacy</li>
+                <li class="mx-4">Terms of Use</li>
+                <li class="mx-4">License</li>
+                <li class="mx-4 relative top-2"><img class="w-24" src="./assets/microsoft-logo.png" alt="microsoft-logo">© 2023 Microsoft</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
