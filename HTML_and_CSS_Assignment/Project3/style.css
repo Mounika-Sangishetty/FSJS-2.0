@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+}
+nav {
+    padding: 2% 5%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    gap: 12%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 45px;
+}
+li:first-child{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+
+}
+nav button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 35px;
+    font-size: 15px;
+}
+.search{
+    position: absolute;
+    right: 39%;
+    top: 6%;
+}
+main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.left{
+    width: 40vh;
+    padding: 5%;
+}
+.photo, .square, .star1{
+    position: absolute;
+    left: 0;
+}
+.photo{
+    top: 20%;
+    left: 5%;
+}
+.square{
+    top: 44%;
+    left: 15%;
+}
+.star1{
+    bottom: 10%;
+    left: 35%;
+}
+section.right{
+    width: 90vh;
+}
+.globe, .star2{
+    position: absolute;
+    bottom: 0;
+}
+.star2{
+    top: 20%;
+    right: 32%;
+}
+.globe{
+    top: 15%;
+    left: 41%;
+}
+.right h1{
+    font-size: 55px;
+}
+.right p{
+    width: 80vh;
+    text-align: center;
+    margin-top: 40px;
+    color: gray;
+}
+section.bottom1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    gap: 10px;
+}
+  .email{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+.join{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 7px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+}
+section.bottom2{
+    position: absolute;
+    right: 35%;
+    bottom: 7%;
+}
+.bottom2 h4{
+    color: gray;
+    padding-left: 30%;
+    padding-bottom: 10px;
+}
+.bottom2 img{
+    margin-left: 10px;
+}
+
