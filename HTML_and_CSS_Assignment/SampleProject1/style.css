@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F9F5ED;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+.leftside{
+    width: 40%;
+}
+.leftside h1{
+    font-size: 67px;
+}
+.leftside p{
+    margin: 5% 0;  
+}
+.leftside button{
+    border: none;
+    background-color: mediumseagreen;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.rightside{
+    width: 60%;
+}
