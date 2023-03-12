@@ -44,7 +44,7 @@ nav button{
     padding: 10px 25px;
 }
 main{
-    background-image: url('bg.png');
+    background-image: url('./assets/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
