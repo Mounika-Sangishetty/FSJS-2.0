@@ -10,7 +10,7 @@ body{
     overflow: hidden;
 }
 nav {
-    padding: 4%;
+    padding: 4% 10%;
     height: 15vh;
     display: flex;
     align-items: center;
@@ -46,8 +46,8 @@ main{
     align-items: center;
 }
 section.left{
-    width: 60vh;
-    padding: 15px 4%;
+    width: 100vh;
+    padding: 15px 10%;
 }
 .left h1{
 font-size: 55px;
@@ -70,5 +70,5 @@ span{
 }
 section.right{
     position: absolute;
-    right: 5%;
+    right: 15%;
 }
