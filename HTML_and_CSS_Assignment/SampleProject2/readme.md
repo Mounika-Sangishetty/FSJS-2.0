@@ -1,6 +1,6 @@
 # HTML and CSS Assignments #
 
-## Project1 ##
+## Sample Project2 ##
 
 ### Output ###
 
