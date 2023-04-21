@@ -1,0 +1,796 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+nav {
+    padding: 2% 5%;
+    height: 5vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 18%;
+    font-size: 15px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    color:	gray;
+}
+.login{
+    background-color:#4f86f7;
+    border: none;
+    padding: 0.5% 1.5%;
+    border-radius: 30px;
+}
+.page1{
+    margin: 2% 5%;
+}
+.page1-h1{
+    font-size: 45px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-blue{
+    color: #4f86f7;
+    font-style: italic;
+}
+.page1-text{
+    padding: 2% 0%;
+    color:	gray;
+    font-size: 15px;
+}
+.page1-img{
+    position: absolute;
+    top: 13%;
+    right: 42%;
+    width: 23%;
+    background: none;
+}
+.page1-button1{
+    background-color: #4f86f7;
+    border: none;
+    padding: 0.5% 1.5%;
+    border-radius: 30px;
+}
+.page1-button2{
+    margin-top: 1%;
+    background-color: black;
+    border: 1px solid white;
+    padding: 0.5% 1.5%;
+    border-radius: 30px;
+    margin-left: 1%;
+}
+.logobar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5% 0%;
+    background-color: #242B2E; 
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 37%;
+}
+.logo1, .logo2, .logo3, .logo4{
+    background: none;
+}
+.page2{
+    background-color: white;
+    color: black;
+    padding: 5% 0%;
+    margin-left: 2%;
+    margin-right: 37%;
+}
+.page2-h1{
+    font-size: 32px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    background: none;
+}
+.page2-text{
+    padding: 1% 0%;
+    color:	gray;
+    font-size: 15px;
+    text-align: center;
+    background: none;
+}
+.page2-cards{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 1%;
+}
+.page2-card1{
+    margin-top: 5%;
+    width: 23%;
+    height: 100%;
+    background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+.fast{
+    width: 25%;
+    margin-left: 39%;
+    background: none;
+}
+.page2-card1-h1{
+    padding: 4% 0%;
+    font-size: 16px;
+    background: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.page2-card1-text{
+    color:	gray;
+    font-size: 15px;
+    text-align: center;
+    background: none;
+}
+.page2-card2{
+    width: 23%;
+    height: 100%;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+.signal{
+    width: 25%;
+    margin-left: 39%;
+    background: none;
+}
+.page2-card2-h1{
+    padding: 4% 0%;
+    font-size: 16px;
+    background: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.page2-card2-text{
+    color:	gray;
+    font-size: 15px;
+    text-align: center;
+    background: none;
+}
+.page2-card3{
+    margin-top: 5%;
+    width: 23%;
+    height: 100%;
+    background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+.heart{
+    width: 25%;
+    margin-left: 39%;
+    background: none;
+}
+.page2-card3-h1{
+    padding: 4% 0%;
+    font-size: 16px;
+    background: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.page2-card3-text{
+    color:	gray;
+    font-size: 15px;
+    text-align: center;
+    background: none;
+}
+.page2-heading2{
+    margin-top: 8%;
+    margin-left: 12%;
+    font-size: 32px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+    background: none;
+}
+.page2-buttons{
+    background: none;
+    margin-left: 12%;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    position: relative;
+}
+.page2-button1{
+    background-color: #4f86f7;
+    border: none;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2%;
+    padding-right: 27%;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2%;
+}
+.minus{
+    background: none;
+    width: 25px;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+.page2-button2{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2%;
+    padding-right: 25.5%;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2%;
+}
+.plus{
+    background: none;
+    width: 25px;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+.page2-button3{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2%;
+    padding-right: 11%;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2%;
+}
+.page2-button4{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2%;
+    padding-right: 26%;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2%;
+}
+.page2-button5{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2%;
+    padding-right: 16%;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+}
+.card{
+    padding: 2% 1%;
+    position: absolute;
+    top: 0%;
+    right: 13%;
+    border-radius: 10px;
+    width: 40%;
+    height: 101%;
+}
+.dot{
+    position: absolute;
+    left: 3%;
+    top: 36%;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: white;
+    border: none;
+}
+.card-button1{
+    font-size: 15px;
+    background-color: #242B2E;
+    border-radius: 30px;
+    border: none;
+    padding: 3% 10%;
+    position: relative;
+}
+.card-button2{
+    font-size: 15px;
+    background-color: #242B2E;
+    border-radius: 30px;
+    border: none;
+    padding: 3% 10%;
+    margin-top: 2%;
+    position: relative;
+}
+.card-button3{
+    font-size: 15px;
+    background-color: #242B2E;
+    border-radius: 30px;
+    border: none;
+    padding: 3% 10%;
+    position: relative;
+    margin-top: 2%;
+}
+.card-button4{
+    font-size: 15px;
+    background-color: #242B2E;
+    border-radius: 30px;
+    border: none;
+    padding: 3% 10%;
+    position: relative;
+    margin-top: 2%;
+}
+.card-button5{
+    font-size: 15px;
+    background-color: #242B2E;
+    border-radius: 30px;
+    border: none;
+    padding: 3% 10%;
+    position: relative;
+    margin-top: 2%;
+}
+.card-button6{
+    font-size: 15px;
+    background-color: #242B2E;
+    border-radius: 30px;
+    border: none;
+    padding: 3% 10%;
+    position: relative;
+    margin-top: 2%;
+}
+.card-button7{
+    font-size: 15px;
+    background-color: #242B2E;
+    border-radius: 30px;
+    border: none;
+    padding: 3% 10%;
+    position: relative;
+    margin-top: 2%;
+}
+.card-button8{
+    font-size: 15px;
+    background-color: #242B2E;
+    border-radius: 30px;
+    border: none;
+    padding: 3% 10%;
+    position: relative;
+    margin-top: 2%;
+}
+.page3{
+    margin-top: 3%;
+    margin-right: 37%;
+    position: relative;
+}
+.arrow-left{
+    width: 3.5%;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+}
+.arrow-right{
+    width: 3.5%;
+    position: absolute;
+    top: 8%;
+    right: 15%;
+}
+.page3-heading{
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page3-cards{
+    padding-bottom: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.page3-card1{
+    background-color: white;
+    border-radius: 15px;
+    padding: 2% 1%;
+    width: 23%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page3-card1-h3{
+    background: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.page3-card1-h1{
+    padding: 4% 0%;
+    background: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 550;
+}
+.month{
+    background: none;
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+.page3-card1-text{
+    background: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 550;
+    padding-bottom: 5%;
+}
+.page3-card1-list{
+    background: none;
+    padding-top: 10%;
+}
+.blue-tick{
+    background: none;
+    width: 4%;
+    margin-right: 2%;
+}
+.page3-card1-list1, .page3-card1-list2, .page3-card1-list3, .page3-card1-list4, .page3-card1-list5, .page3-card1-list6, .page3-card1-list7{
+    background: none;
+    color: black;
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+.page3-card1-button{
+    margin-top: 7%;
+    background-color: #4f86f7;
+    border: none;
+    padding: 4% 40%;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.page3-card2{
+    background-color: #4f86f7;
+    border-radius: 15px;
+    padding: 2% 1%;
+    width: 23%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page3-card2-h3{
+    background: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.page3-card2-h1{
+    padding: 4% 0%;
+    background: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 550;
+}
+.card2-month{
+    background: none;
+    color:skyblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+.page3-card2-text{
+    background: none;
+    color: white;
+    font-size: 10px;
+    font-weight: 550;
+    padding-bottom: 5%;
+}
+.page3-card2-list{
+    background: none;
+    padding-top: 10%;
+}
+.white-tick{
+    background: none;
+    width: 4%;
+    margin-right: 2%;
+}
+.page3-card2-list1, .page3-card2-list2, .page3-card2-list3, .page3-card2-list4, .page3-card2-list5, .page3-card2-list6, .page3-card2-list7{
+    background: none;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+.page3-card2-button{
+    margin-top: 7%;
+    color: #4f86f7;
+    background-color: white;
+    border: none;
+    padding: 4% 40%;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.page3-card3{
+    background-color: white;
+    border-radius: 15px;
+    padding: 2% 1%;
+    width: 23%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page3-card3-h3{
+    background: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.page3-card3-h1{
+    padding: 4% 0%;
+    background: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 550;
+}
+.month{
+    background: none;
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+.page3-card3-text{
+    background: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 550;
+    padding-bottom: 5%;
+}
+.page3-card3-list{
+    background: none;
+    padding-top: 10%;
+}
+.blue-tick{
+    background: none;
+    width: 4%;
+    margin-right: 2%;
+}
+.page3-card3-list1, .page3-card3-list2, .page3-card3-list3, .page3-card3-list4, .page3-card3-list5, .page3-card3-list6, .page3-card3-list7{
+    background: none;
+    color: black;
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+.page3-card3-button{
+    margin-top: 7%;
+    background-color: #4f86f7;
+    border: none;
+    padding: 4% 40%;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.page4{
+    background-color: white;
+    color: black;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 37%;
+    position: relative;
+}
+.page4-heading{
+    margin-left: 11%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 18%;
+}
+.page4-h1{
+    font-size: 32px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: none;
+}
+.page4-text{
+    background: none;
+    color:	gray;
+    font-size: 15px;
+}
+.page4-card1{
+    border-radius: 20px;
+    width: 45%;
+    height: auto;
+    margin-left: 12%;
+    margin-top: 5%;
+    padding: 2%;
+}
+.vector1{
+    background: none;
+    width: 3%;
+}
+.vector2{
+    background: none;
+    width: 3%;
+}
+.page4-card1-name{
+    font-size: 15px;
+    padding-top: 5%;
+}
+.page4-card1-city{
+    font-size: 12px;
+    padding-top: 1%;
+    color: gray;
+}
+.page4-card1-text{
+    padding: 5% 0%;
+    font-size: 20px;
+}
+.rating{
+    width: 25%;
+}
+.page4-card2{
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 45%;
+    height: auto;
+    padding: 2%;
+    background: none;
+    position: absolute;
+    top: 37%;
+    left: 60%;
+}
+.page4-card2-name{
+    font-size: 15px;
+    padding-top: 5%;
+    background: none;
+    color: black;
+}
+.page4-card2-city{
+    font-size: 12px;
+    padding-top: 1%;
+    color: gray;
+    background: none;
+}
+.page4-card2-text{
+    padding: 5% 0%;
+    font-size: 20px;
+    background: none;
+    color: black;
+}
+.page4-card2-rating{
+    width: 25%;
+    background: none;
+}
+.page4-button{
+    background: none;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.line-break-blue{
+    padding: 0.3% 6%;
+    background-color: #4f86f7;
+    border: none;
+    border-radius: 25px;
+}
+.line-break-gray{
+    padding: 0.3% 44%;
+    background-color:whitesmoke;
+    border: none;
+    border-radius: 25px;
+}
+.page5{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-right: 35%;
+}
+.page5-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page5-button-card{
+    background-color: #242B2E;
+    border-radius: 10px;
+    width: 73%;
+    padding: 4% 2%;
+    margin-left: 14%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.name{
+    background-color:rgb(88, 87, 87);
+    color: rgba(251, 248, 248, 0.918);
+    border-radius: 25px;
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 20%;
+}
+.email{
+    background-color:rgb(88, 87, 87);
+    color: rgba(251, 248, 248, 0.918);
+    border-radius: 25px;
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 13%;
+    margin-left: 1%;
+}
+.password{
+    background-color:rgb(88, 87, 87);
+    color: rgba(251, 248, 248, 0.918);
+    border-radius: 25px;
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 14%;
+    margin-left: 1%;
+}
+.sign-up{
+    background-color: #4f86f7;
+    color: rgba(251, 248, 248, 0.918);
+    border-radius: 25px;
+    border: none;
+    padding: 2% 4%;
+    margin-left: 1%;
+}
+.page5-linebreak{
+    margin-left: 14%;
+    width: 73%;
+}
+.page5-data{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin-left: 18%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+div ul li{
+    list-style: none;
+    color: rgba(251, 248, 248, 0.918);
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+div ul li:first-child{
+    font-size: 18px;
+    margin-bottom: 18%;
+}
+.page5-data3{
+    margin-bottom: 2%;
+}
+.footer{
+    margin-left: 14%;
+}
