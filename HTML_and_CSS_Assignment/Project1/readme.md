@@ -1,6 +1,6 @@
 # HTML and CSS Assignments #
 
-## Mounika_Project1 ##
+## HTML_CSS_Project1 ##
 
 ### Output ###
 
