@@ -19,7 +19,7 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 5%;
+    gap: 6%;
     font-size: 15px;
 }
 nav ul{
@@ -28,15 +28,16 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin-left: 40px;
+    margin-left: 45px;
     color:	#e7decc;
-    font-size: 12px;
+    font-size: 14px;
 }
 .Sign-In{
     position: absolute;
     right: 18%;
     background: none;
     border: none;
+    font-size: 14px;
     color:	#e7decc;
 }
 .Sign-Up{
@@ -46,7 +47,7 @@ nav ul li{
     background-color: #ff4f00;
     border: none;
     color:	#e7decc;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 550;
 }
 .page1-content{
@@ -63,23 +64,23 @@ nav ul li{
     padding: 2% 0%;
     margin-bottom: 2%;
     color: grey;
-    font-size: 12px;
+    font-size: 15px;
 }
 .getstarted{
     padding: 1% 2%;
     background-color: #ff4f00;
     border: none;
     color:	#e7decc;
-    font-size: 12px;
-    font-weight: 550;
+    font-size: 15px;
+    font-weight: 500;
 }
 .learnmore{
     padding: 1% 2%;
     background: none;
     border: 1.5px solid white;
     color:	#e7decc;
-    font-size: 12px;
-    font-weight: 550;
+    font-size: 15px;
+    font-weight: 500;
     margin-left: 1%;
 }
 .playButton{
@@ -471,13 +472,13 @@ nav ul li{
    display: flex;
    gap: 8%;
 }
-li:first-child{
+.footer-part li:first-child{
     color: white;
     font-size: 15px;
     margin-bottom: 17%;
     font-weight: 500;
 }
-div ul li{
+.footer-part ul li{
     list-style: none;
     margin-bottom: 15%;
     color: rgb(185, 182, 182);
