@@ -11,11 +11,11 @@ body{
     overflow: hidden;
 }
 nav {
-    padding: 20px 15%;
+    padding: 0% 15%;
     height: 15vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 20%;
 }
 nav ul{
     display: flex;
@@ -23,35 +23,35 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin-left: 45px;
+    margin-left: 50px;
     color: gray;
 }
 button {
-    position: relative;
-    right: 5%;
+    position: absolute;
+    right: 16%;
     border: 1px solid goldenrod;
     color:goldenrod;
     border-radius: 10px;
     padding: 10px 20px;
 }
 main{
-    height: 95vh;
+    height: 100vh;
 }
 .top{
-    padding: 20px 18%;
-    height: 25vh;
+    padding: 20px 15%;
     display: flex;
     align-items: center;
-    gap: 8%;
+    gap: 20%;
 }
 .top h1{
-    font-size: 65px;
-    width: 70vh;
+    font-size: 50px;
+    font-weight: 800;
 }
 .top p{
     color: lightgray;
-    width: 40vh;
 }
-.bottom{
-    padding: 40px 18%;
+.banner{
+    margin-top: 1.5%;
+    margin-left: 17%;
+    width: 60%;
 }
