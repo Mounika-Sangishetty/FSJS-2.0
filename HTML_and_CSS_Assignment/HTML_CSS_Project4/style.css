@@ -33,7 +33,7 @@ main{
     width: 40%;
 }
 .leftside h1{
-    font-size: 67px;
+    font-size: 60px;
 }
 .leftside p{
     margin: 5% 0;  
@@ -48,4 +48,10 @@ main{
 }
 .rightside{
     width: 60%;
+}
+.img1{
+    margin-right: 2%;
+}
+.img3{
+    margin-top: 2%;
 }
