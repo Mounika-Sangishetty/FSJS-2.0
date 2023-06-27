@@ -16,7 +16,7 @@ nav {
     height: 15vh;
     display: flex;
     align-items: center;
-    gap: 12%;
+    gap: 15%;
 }
 nav ul{
     display: flex;
@@ -28,69 +28,90 @@ nav ul li{
 }
 li:first-child{
     font-size: 20px;
-    border-bottom: 1px solid black;
     font-weight: 600;
-
 }
 nav button{
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px 35px;
     font-size: 15px;
+    position: absolute;
+    right: 10%;
+    top: 6%;
+}
+.dash{
+    position: absolute;
+    top: 7%;
+    left: 29%;
+    background: none;
 }
 .search{
     position: absolute;
-    right: 39%;
-    top: 6%;
+    right: 20%;
+    top: 6.5%;
 }
 main{
-    height: 85vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-section.left{
-    width: 40vh;
-    padding: 5%;
+.left{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
 }
 .photo, .square, .star1{
     position: absolute;
-    left: 0;
+    left: 0%;
 }
 .photo{
-    top: 20%;
+    height: 420px;
+    width: 320px;
+    top: 5%;
     left: 5%;
 }
 .square{
-    top: 44%;
-    left: 15%;
+    top: 29%;
+    left: 16%;
 }
-.star1{
-    bottom: 10%;
+.right{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 16%;
     left: 35%;
 }
-section.right{
-    width: 90vh;
-}
-.globe, .star2{
+.star1{
     position: absolute;
-    bottom: 0;
+    top: 70%;
+    left: 3%;
 }
 .star2{
-    top: 20%;
-    right: 32%;
+    position: absolute;
+    top: 5%;
+    left: 48%;
 }
 .globe{
-    top: 15%;
-    left: 41%;
+    position: absolute;
+    left: 11%;
+}
+.content{
+    position: absolute;
+    top: 16%;
+    left: 5%;
 }
 .right h1{
-    font-size: 55px;
+    font-size: 65px;
 }
 .right p{
     width: 80vh;
     text-align: center;
     margin-top: 40px;
+    margin-left: 12%;
     color: gray;
 }
 section.bottom1{
@@ -120,7 +141,7 @@ section.bottom1{
 section.bottom2{
     position: absolute;
     right: 35%;
-    bottom: 7%;
+    top: 100%;
 }
 .bottom2 h4{
     color: gray;
