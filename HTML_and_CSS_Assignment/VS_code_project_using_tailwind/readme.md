@@ -4,4 +4,4 @@
 
 ### Output ###
 
-[output]()
+[output](./output.png)
