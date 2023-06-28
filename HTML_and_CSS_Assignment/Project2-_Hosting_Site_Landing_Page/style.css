@@ -6,18 +6,16 @@
     color: white;
 }
 nav {
-    padding: 2% 5%;
+    padding: 3% 5%;
     height: 5vh;
-    width: 60%;
     display: flex;
     align-items: center;
-    gap: 18%;
-    font-size: 15px;
+    gap: 20%;
+    font-size: 18px;
 }
 nav ul{
     display: flex;
     align-items: center;
-    
 }
 nav ul li{
     list-style: none;
@@ -27,15 +25,20 @@ nav ul li{
 .login{
     background-color:#4f86f7;
     border: none;
-    padding: 0.5% 1.5%;
+    padding: 1% 2%;
     border-radius: 30px;
+    font-size: 15px;
 }
 .page1{
-    margin: 2% 5%;
+    margin: 5%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    padding-bottom: 2%;
 }
 .page1-h1{
-    font-size: 45px;
-    font-weight: 550;
+    font-size: 55px;
+    font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
 .text-blue{
@@ -45,28 +48,31 @@ nav ul li{
 .page1-text{
     padding: 2% 0%;
     color:	gray;
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 130%;
 }
 .page1-img{
     position: absolute;
-    top: 13%;
-    right: 42%;
-    width: 23%;
+    top: 0%;
+    right: 15%;
+    width: 33%;
     background: none;
 }
 .page1-button1{
     background-color: #4f86f7;
     border: none;
-    padding: 0.5% 1.5%;
+    padding: 1% 2%;
     border-radius: 30px;
+    font-size: 15px;
 }
 .page1-button2{
     margin-top: 1%;
     background-color: black;
     border: 1px solid white;
-    padding: 0.5% 1.5%;
+    padding: 1% 2%;
     border-radius: 30px;
     margin-left: 1%;
+    font-size: 15px;
 }
 .logobar{
     display: flex;
@@ -74,8 +80,6 @@ nav ul li{
     padding: 0.5% 0%;
     background-color: #242B2E; 
     margin-top: 7%;
-    margin-left: 2%;
-    margin-right: 37%;
 }
 .logo1, .logo2, .logo3, .logo4{
     background: none;
@@ -83,12 +87,11 @@ nav ul li{
 .page2{
     background-color: white;
     color: black;
-    padding: 5% 0%;
-    margin-left: 2%;
-    margin-right: 37%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 .page2-h1{
-    font-size: 32px;
+    font-size: 45px;
     font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -96,9 +99,10 @@ nav ul li{
     background: none;
 }
 .page2-text{
-    padding: 1% 0%;
+    padding: 2% 0%;
     color:	gray;
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 130%;
     text-align: center;
     background: none;
 }
@@ -108,64 +112,63 @@ nav ul li{
     align-items: center;
     justify-content: center;
     gap: 3%;
-    margin-top: 1%;
 }
 .page2-card1{
     margin-top: 5%;
-    width: 23%;
+    width: 18%;
     height: 100%;
     background-color: white;
     border: 0.5px solid gray;
     border-radius: 15px;
-    padding-top: 2%;
-    padding-bottom: 4%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
 }
 .fast{
     width: 25%;
-    margin-left: 39%;
+    margin-left: 38%;
+    padding-top: 7%;
+    padding-bottom: 10%;
     background: none;
 }
 .page2-card1-h1{
     padding: 4% 0%;
-    font-size: 16px;
+    font-size: 18px;
     background: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .page2-card1-text{
+    padding-top: 2%;
+    padding-bottom: 15%;
     color:	gray;
     font-size: 15px;
     text-align: center;
     background: none;
 }
 .page2-card2{
-    width: 23%;
+    width: 18%;
     height: 100%;
     background-color: black;
     border: none;
     border-radius: 15px;
-    padding-top: 2%;
-    padding-bottom: 4%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
 }
 .signal{
     width: 25%;
-    margin-left: 39%;
+    margin-left: 38%;
+    padding-top: 7%;
+    padding-bottom: 10%;
     background: none;
 }
 .page2-card2-h1{
     padding: 4% 0%;
-    font-size: 16px;
+    font-size: 18px;
     background: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .page2-card2-text{
+    padding-top: 2%;
+    padding-bottom: 15%;
     color:	gray;
     font-size: 15px;
     text-align: center;
@@ -173,30 +176,30 @@ nav ul li{
 }
 .page2-card3{
     margin-top: 5%;
-    width: 23%;
+    width: 18%;
     height: 100%;
     background-color: white;
     border: 0.5px solid gray;
     border-radius: 15px;
-    padding-top: 2%;
-    padding-bottom: 4%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
 }
 .heart{
     width: 25%;
-    margin-left: 39%;
+    margin-left: 38%;
+    padding-top: 7%;
+    padding-bottom: 10%;
     background: none;
 }
 .page2-card3-h1{
     padding: 4% 0%;
-    font-size: 16px;
+    font-size: 18px;
     background: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .page2-card3-text{
+    padding-top: 2%;
+    padding-bottom: 15%;
     color:	gray;
     font-size: 15px;
     text-align: center;
@@ -204,8 +207,8 @@ nav ul li{
 }
 .page2-heading2{
     margin-top: 8%;
-    margin-left: 12%;
-    font-size: 32px;
+    margin-left: 20%;
+    font-size: 40px;
     font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
@@ -214,10 +217,12 @@ nav ul li{
 }
 .page2-buttons{
     background: none;
-    margin-left: 12%;
+    margin-left: 20%;
     margin-top: 4%;
     margin-bottom: 1%;
     position: relative;
+    top: 0%;
+    left: 0%;
 }
 .page2-button1{
     background-color: #4f86f7;
@@ -227,9 +232,11 @@ nav ul li{
     padding-left: 2%;
     padding-right: 27%;
     border-radius: 30px;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     position: relative;
+    top: 0%;
+    left: 0%;
     margin-bottom: 2%;
 }
 .minus{
@@ -246,11 +253,13 @@ nav ul li{
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     padding-left: 2%;
-    padding-right: 25.5%;
+    padding-right: 24.5%;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     position: relative;
+    top: 0%;
+    left: 0%;
     margin-bottom: 2%;
 }
 .plus{
@@ -267,11 +276,13 @@ nav ul li{
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     padding-left: 2%;
-    padding-right: 11%;
+    padding-right: 11.5%;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     position: relative;
+    top: 0%;
+    left: 0%;
     margin-bottom: 2%;
 }
 .page2-button4{
@@ -281,11 +292,13 @@ nav ul li{
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     padding-left: 2%;
-    padding-right: 26%;
+    padding-right: 25%;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     position: relative;
+    top: 0%;
+    left: 0%;
     margin-bottom: 2%;
 }
 .page2-button5{
@@ -297,18 +310,20 @@ nav ul li{
     padding-left: 2%;
     padding-right: 16%;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     position: relative;
+    top: 0%;
+    left: 0%;
 }
 .card{
     padding: 2% 1%;
     position: absolute;
     top: 0%;
-    right: 13%;
+    right: 19%;
     border-radius: 10px;
-    width: 40%;
-    height: 101%;
+    width: 35%;
+    height: 100%;
 }
 .dot{
     position: absolute;
@@ -320,80 +335,97 @@ nav ul li{
     border: none;
 }
 .card-button1{
-    font-size: 15px;
+    font-size: 18px;
     background-color: #242B2E;
     border-radius: 30px;
     border: none;
     padding: 3% 10%;
     position: relative;
+    top: 0%;
+    left: 0%;
 }
 .card-button2{
-    font-size: 15px;
+    font-size: 18px;
     background-color: #242B2E;
     border-radius: 30px;
     border: none;
     padding: 3% 10%;
-    margin-top: 2%;
+    margin-top: 3%;
     position: relative;
+    top: 0%;
+    left: 0%;
 }
 .card-button3{
-    font-size: 15px;
+    font-size: 18px;
     background-color: #242B2E;
     border-radius: 30px;
     border: none;
     padding: 3% 10%;
     position: relative;
-    margin-top: 2%;
+    top: 0%;
+    left: 0%;
+    margin-top: 3%;
 }
 .card-button4{
-    font-size: 15px;
+    font-size: 18px;
     background-color: #242B2E;
     border-radius: 30px;
     border: none;
     padding: 3% 10%;
     position: relative;
-    margin-top: 2%;
+    top: 0%;
+    left: 0%;
+    margin-top: 3%;
 }
 .card-button5{
-    font-size: 15px;
+    font-size: 18px;
     background-color: #242B2E;
     border-radius: 30px;
     border: none;
     padding: 3% 10%;
     position: relative;
-    margin-top: 2%;
+    top: 0%;
+    left: 0%;
+    margin-top: 3%;
 }
 .card-button6{
-    font-size: 15px;
+    font-size: 18px;
     background-color: #242B2E;
     border-radius: 30px;
     border: none;
     padding: 3% 10%;
     position: relative;
-    margin-top: 2%;
+    top: 0%;
+    left: 0%;
+    margin-top: 3%;
 }
 .card-button7{
-    font-size: 15px;
+    font-size: 18px;
     background-color: #242B2E;
     border-radius: 30px;
     border: none;
     padding: 3% 10%;
     position: relative;
-    margin-top: 2%;
+    top: 0%;
+    left: 0%;
+    margin-top: 3%;
 }
 .card-button8{
-    font-size: 15px;
+    font-size: 18px;
     background-color: #242B2E;
     border-radius: 30px;
     border: none;
     padding: 3% 10%;
     position: relative;
-    margin-top: 2%;
+    top: 0%;
+    left: 0%;
+    margin-top: 3%;
 }
 .page3{
     margin-top: 3%;
-    margin-right: 37%;
     position: relative;
+    top: 0%;
+    left: 0%;
 }
 .arrow-left{
     width: 3.5%;
@@ -410,7 +442,7 @@ nav ul li{
 .page3-heading{
     margin-bottom: 10%;
     text-align: center;
-    font-size: 32px;
+    font-size: 45px;
     font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -424,7 +456,7 @@ nav ul li{
 .page3-card1{
     background-color: white;
     border-radius: 15px;
-    padding: 2% 1%;
+    padding: 2.5% 1%;
     width: 23%;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -432,7 +464,7 @@ nav ul li{
 .page3-card1-h3{
     background: none;
     color: black;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
 }
 .page3-card1-h1{
@@ -451,7 +483,8 @@ nav ul li{
 .page3-card1-text{
     background: none;
     color: black;
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 150%;
     font-weight: 550;
     padding-bottom: 5%;
 }
@@ -467,8 +500,8 @@ nav ul li{
 .page3-card1-list1, .page3-card1-list2, .page3-card1-list3, .page3-card1-list4, .page3-card1-list5, .page3-card1-list6, .page3-card1-list7{
     background: none;
     color: black;
-    font-size: 12px;
-    margin-bottom: 2%;
+    font-size: 15px;
+    margin-bottom: 3%;
 }
 .page3-card1-button{
     margin-top: 7%;
@@ -476,7 +509,7 @@ nav ul li{
     border: none;
     padding: 4% 40%;
     border-radius: 30px;
-    font-size: 12px;
+    font-size: 15px;
 }
 .page3-card2{
     background-color: #4f86f7;
@@ -489,7 +522,7 @@ nav ul li{
 .page3-card2-h3{
     background: none;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
 }
 .page3-card2-h1{
@@ -508,7 +541,8 @@ nav ul li{
 .page3-card2-text{
     background: none;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 150%;
     font-weight: 550;
     padding-bottom: 5%;
 }
@@ -524,8 +558,8 @@ nav ul li{
 .page3-card2-list1, .page3-card2-list2, .page3-card2-list3, .page3-card2-list4, .page3-card2-list5, .page3-card2-list6, .page3-card2-list7{
     background: none;
     color: white;
-    font-size: 12px;
-    margin-bottom: 2%;
+    font-size: 15px;
+    margin-bottom: 3%;
 }
 .page3-card2-button{
     margin-top: 7%;
@@ -534,7 +568,7 @@ nav ul li{
     border: none;
     padding: 4% 40%;
     border-radius: 30px;
-    font-size: 12px;
+    font-size: 15px;
 }
 .page3-card3{
     background-color: white;
@@ -547,7 +581,7 @@ nav ul li{
 .page3-card3-h3{
     background: none;
     color: black;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
 }
 .page3-card3-h1{
@@ -566,7 +600,8 @@ nav ul li{
 .page3-card3-text{
     background: none;
     color: black;
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 150%;
     font-weight: 550;
     padding-bottom: 5%;
 }
@@ -582,8 +617,8 @@ nav ul li{
 .page3-card3-list1, .page3-card3-list2, .page3-card3-list3, .page3-card3-list4, .page3-card3-list5, .page3-card3-list6, .page3-card3-list7{
     background: none;
     color: black;
-    font-size: 12px;
-    margin-bottom: 2%;
+    font-size: 15px;
+    margin-bottom: 3%;
 }
 .page3-card3-button{
     margin-top: 7%;
@@ -591,27 +626,29 @@ nav ul li{
     border: none;
     padding: 4% 40%;
     border-radius: 30px;
-    font-size: 12px;
+    font-size: 15px;
 }
 .page4{
     background-color: white;
     color: black;
+    width: 100%;
+    height: 100%;
     padding-top: 6%;
-    padding-bottom: 4%;
-    margin-left: 2%;
-    margin-right: 37%;
+    padding-bottom: 6%;
     position: relative;
+    top: 0%;
+    left: 0%;
 }
 .page4-heading{
-    margin-left: 11%;
     background-color: white;
     color: black;
     display: flex;
     align-items: center;
-    gap: 18%;
+    justify-content: center;
+    gap: 10%;
 }
 .page4-h1{
-    font-size: 32px;
+    font-size: 45px;
     font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -620,14 +657,19 @@ nav ul li{
 .page4-text{
     background: none;
     color:	gray;
-    font-size: 15px;
+    font-size: 18px;
+}
+.page4-cards{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    background: none;
 }
 .page4-card1{
     border-radius: 20px;
     width: 45%;
     height: auto;
-    margin-left: 12%;
-    margin-top: 5%;
     padding: 2%;
 }
 .vector1{
@@ -657,13 +699,12 @@ nav ul li{
 .page4-card2{
     border-radius: 20px;
     border: 1px solid gray;
+    border-right: none;
     width: 45%;
     height: auto;
     padding: 2%;
+    margin-left: 10%;
     background: none;
-    position: absolute;
-    top: 37%;
-    left: 60%;
 }
 .page4-card2-name{
     font-size: 15px;
@@ -692,7 +733,7 @@ nav ul li{
     display: flex;
     align-items: center;
     margin-top: 5%;
-    margin-left: 12%;
+    margin-left: 20%;
 }
 .line-break-blue{
     padding: 0.3% 6%;
@@ -709,19 +750,18 @@ nav ul li{
 .page5{
     margin-top: 5%;
     margin-bottom: 2%;
-    margin-right: 35%;
 }
 .page5-heading{
     text-align: center;
-    font-size: 35px;
-    font-weight: 500;
+    font-size: 45px;
+    font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
 }
 .page5-button-card{
     background-color: #242B2E;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 73%;
-    padding: 4% 2%;
+    padding: 3% 2%;
     margin-left: 14%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -735,6 +775,7 @@ nav ul li{
     padding-bottom: 2%;
     padding-left: 2%;
     padding-right: 20%;
+    margin-left: 3%;
 }
 .email{
     background-color:rgb(88, 87, 87);
@@ -745,7 +786,7 @@ nav ul li{
     padding-bottom: 2%;
     padding-left: 2%;
     padding-right: 13%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .password{
     background-color:rgb(88, 87, 87);
@@ -756,7 +797,7 @@ nav ul li{
     padding-bottom: 2%;
     padding-left: 2%;
     padding-right: 14%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .sign-up{
     background-color: #4f86f7;
@@ -764,7 +805,7 @@ nav ul li{
     border-radius: 25px;
     border: none;
     padding: 2% 4%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .page5-linebreak{
     margin-left: 14%;
@@ -773,7 +814,7 @@ nav ul li{
 .page5-data{
     display: flex;
     align-items: center;
-    gap: 10%;
+    gap: 15%;
     margin-left: 18%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -786,10 +827,10 @@ div ul li{
 }
 div ul li:first-child{
     font-size: 18px;
-    margin-bottom: 18%;
+    margin-bottom: 22%;
 }
 .page5-data3{
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 .footer{
     margin-left: 14%;
