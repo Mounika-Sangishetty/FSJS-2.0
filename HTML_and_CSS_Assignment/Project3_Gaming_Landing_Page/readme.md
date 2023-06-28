@@ -1,6 +1,6 @@
 # HTML and CSS Assignments #
 
-## Sample Project1 ##
+## Project3_Gaming_Landing_Page##
 
 ### Output ###
 
