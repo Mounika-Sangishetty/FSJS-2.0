@@ -116,3 +116,341 @@ nav ul li{
     gap: 25%;
     margin-left: 30%;
 }
+.page2{
+    height: 90vh;
+    margin-top: 5%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.page2-h1{
+    font-size: 65px;
+    font-weight: 500;
+    color: #3f3e3e;
+    text-align: center;
+}
+.name{
+    font-size: 15px;
+    font-weight: 550;
+}
+.description{
+    padding-top: 10%;
+    color: rgb(158, 158, 154);
+    font-size: 12px;
+}
+.bluetooth{
+    position: absolute;
+    top: 18%;
+    left: 37%;
+}
+.battery{
+    position: absolute;
+    top: 32%;
+    left: 35%;
+}
+.load{
+    position: absolute;
+    top: 47%;
+    left: 35%;
+}
+.microphone{
+    position: absolute;
+    top: 63%;
+    left: 37%;
+}
+.specsImage{
+    width: 20%;
+    position: absolute;
+    top: 23%;
+    right: 30%;
+}
+.page3{
+    height: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    padding-bottom: 5%;
+}
+.page3-h1{
+    font-size: 65px;
+    font-weight: 500;
+    color: #3f3e3e;
+    text-align: center;
+}
+.case{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.case-text{
+    color: rgb(158, 158, 154);
+    font-size: 15px;
+    line-height: 150%;
+}
+.case-button{
+    margin-top: 20%;
+    border: none;
+    border-radius: 8px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 25%;
+    padding-right: 10%;
+    font-size: 14px;
+    background-color: #1f1f1f;
+    color: rgb(158, 158, 154);
+}
+.group{
+    background: none;
+    width: 18px;
+    position: absolute;
+    top: 66.5%;
+    right: 43%;
+}
+.page4{
+    height: 150vh;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    padding-bottom: 5%;
+}
+.card{
+    background-color: #1f1f1f;
+    margin: 5% 20%;
+    border-radius: 10px;
+    padding: 4% 8%;
+}
+.card-h1{
+    background: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.card-text{
+    background: none;
+    color: rgb(158, 158, 154);
+    font-size: 14px;
+    padding: 2% 0%;
+}
+.card-button{
+    border: none;
+    border-radius: 8px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    padding-right: 4%;
+    font-size: 12px;
+}
+.card-shoppingBag{
+    width: 14px;
+    position: absolute;
+    top: 17%;
+    left: 29.2%
+}
+.buyNowSectionImage{
+    background: none;
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+.page4-h1{
+    font-size: 55px;
+    font-weight: 500;
+    color: #3f3e3e;
+    text-align: center;
+}
+.headphones1{
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.headphones2{
+    padding-top: 5%;
+    padding-left: 30%;
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.blue-headphones{
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding-top: 8%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    width: 15%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.twilightgray-headphones{
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding-top: 8%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    width: 14%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.black-headphones, .redblack-headphones, .nightblack-headphones{
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding-top: 6%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    width: 10%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.headphone-img{
+    background: none;
+}
+.color{
+    background: none;
+    font-size: 12px;
+    font-weight: 550;
+}
+.specification{
+    background: none;
+    font-size: 12px;
+    font-weight: 550;
+    color: rgb(158, 158, 154);
+    padding-top: 5px;
+}
+.shoppingcart{
+    border-radius: 5px;
+    padding: 6px;
+    width: 25px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+.headphone-img1{
+    background: none;
+    position: absolute;
+    top: 32%;
+    left: 32%;
+    z-index: 50;
+}
+.headphone-img2{
+    background: none;
+    position: absolute;
+    top: 32%;
+    left: 47%;
+    z-index: 50;
+}
+.headphone-img3{
+    background: none;
+    position: absolute;
+    top: 32%;
+    left: 62%;
+    z-index: 50;
+}
+.headphone-img4{
+    background: none;
+    position: absolute;
+    top: 19%;
+    left: 32.2%;
+    z-index: 50;
+}
+.headphone-img5{
+    background: none;
+    position: absolute;
+    top: 15%;
+    left: 47.2%;
+    z-index: 50;
+}
+.footer{
+    padding-top: 5%;
+    margin-bottom: 8%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+}
+.footer-Logo{
+    width: 2%;
+    position: absolute;
+    top: 31%;
+    left: 23%;
+}
+.footer ul li{
+    list-style: none;
+    font-size: 14px;
+    color: rgb(158, 158, 154);
+    margin-bottom: 12%;
+}
+.footer ul li:first-child{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 17%;
+}
+.footer-button{
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.email{
+    border: none;
+    border-radius: 5px;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    padding-left: 8%;
+    padding-right: 160%;
+    font-size: 12px;
+    background-color: #1f1f1f;
+    color: rgb(158, 158, 154);
+}
+.Subscribe{
+    position: absolute;
+    top: 6%;
+    left: 107%;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 25%;
+    padding-right: 12%;
+}
+.social-media-logos{
+    margin-top: 15%;
+}
+.facebook, .twitter, .instagram{
+    margin-right: 5%;
+}
+.rightArrow{
+    width: 10%;
+    position: absolute;
+    top: 17%;
+    left: 116%;
+}
+.upArrow{
+    width: 2%;
+    position: absolute;
+    top: 73%;
+    right: 2%;
+}
+.twitter-dark{
+    position: absolute;
+    top: 45%;
+    left: 16%;
+}
