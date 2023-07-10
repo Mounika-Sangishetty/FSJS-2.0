@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0% 0%;
     box-sizing: border-box;
-    background-color: white;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,6 +10,8 @@
     position: relative;
     top: 0%;
     left: 0%;
+    background-color: #edf7fd;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, -30% 95%, 0 95%);
 }
 nav {
     padding: 2% 15%;
@@ -18,7 +19,7 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 25%;
+    gap: 30%;
     position: relative;
     top: 0%;
     left: 0%;
@@ -43,8 +44,8 @@ nav ul li{
     padding: 1.5% 3%;
     white-space: nowrap;
     border-radius: 25px;
-    color: #1357ae;
-    border: 1px solid #1357ae;
+    color: rgb(86, 75, 156);
+    border: 1px solid rgb(86, 75, 156);
     font-size: 12px;
     font-weight: 550;
 }
@@ -54,7 +55,7 @@ nav ul li{
 }
 .page1-button1{
     font-size: 14px;
-    color: #1357ae;
+    color: rgb(86, 75, 156);
     border: none;
     background-color: #e6e6e6;
     padding-top: 0.7%;
@@ -65,7 +66,7 @@ nav ul li{
 }
 .learnmore{
     font-size: 14px;
-    color: #1357ae;
+    color: rgb(86, 75, 156);
     background-color: #e6e6e6;
     text-decoration: underline;
     margin-left: 5px;
@@ -85,4 +86,213 @@ nav ul li{
     color: gray;
     line-height: 140%;
     padding-bottom: 2%;
+}
+.page1-button2{
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-color:rgb(86, 75, 156);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 25px;
+}
+.page1-button3{
+    margin-left: 1%;
+    font-size: 14px;
+    color: rgb(86, 75, 156);
+    border: none;
+    background-color:white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 25px;
+}
+.page1-img{
+    position: absolute;
+    top: 15%;
+    right: 18%;
+}
+.page2{
+    height: auto;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin-top: 5%;
+}
+.page2-button1{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(86, 75, 156);
+    border: none;
+    background-color: #e6e6e6;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    padding-right: 1.5%;
+    padding-left: 3.5%;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin-left: 46%;
+}
+.awesome-eye{
+    width: 25px;
+    position: absolute;
+    top: 10px;
+    left: 47%;
+}
+.page2-h1{
+    padding: 2% 0%;
+    font-size: 35px;
+    font-weight: 550;
+    text-align: center;
+}
+.page2-text{
+    font-size: 16px;
+    color: gray;
+    line-height: 150%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.page2-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.data-img{
+   margin-left: 42%;
+}
+.data-h1{
+    padding-top: 5%;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+}
+.data-text{
+    padding-top: 5%;
+    font-size: 16px;
+    color: gray;
+    line-height: 150%;
+    text-align: center;
+}
+.product-terms{
+    margin-top: 5%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.product-terms-button{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(86, 75, 156);
+    border: none;
+    background-color: #e6e6e6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    padding-left: 11%;
+    border-radius: 25px;
+}
+.Group-11{
+    width: 23px;
+    position: absolute;
+    top: 30.5%;
+    right: 46%;
+}
+.product-terms-h1{
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 550;
+}
+.product-terms-text{
+    padding-top: 5%;
+    font-size: 16px;
+    color: gray;
+    line-height: 150%;
+}
+.eng-terms{
+    margin-top: 5%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.eng-terms-button{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(86, 75, 156);
+    border: none;
+    background-color: #e6e6e6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    padding-left: 11%;
+    border-radius: 25px;
+}
+.Group-28{
+    width: 23px;
+    position: absolute;
+    top: 29%;
+    left: 6.4%;
+}
+.eng-terms-h1{
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 550;
+}
+.eng-terms-text{
+    padding-top: 5%;
+    font-size: 16px;
+    color: gray;
+    line-height: 150%;
+}
+.page3{
+    height: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin-top: 4%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #edf7fd;
+    margin-bottom: 5%;
+}
+.page3-h1{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(8, 8, 58);
+}
+.profile{
+    position: absolute;
+    top: 38%;
+    left: 47%;
+}
+.profile-name{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 550;
+}
+.line-break{
+    margin: 2% 15%;
+    padding-right: 70%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: rgb(189, 188, 188);
+    border: none;
+}
+.logo-bar{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
 }
