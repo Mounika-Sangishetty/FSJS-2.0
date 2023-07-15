@@ -280,3 +280,73 @@
 //let add1=sum(11,26);
 //console.log(add1);
 
+//function URL(url,domain){
+//    let con="https://";
+//    let result=con+url+domain;
+//    return result;
+//}
+//let flipkartsite=URL("www.flipkart",".in");
+//console.log(flipkartsite);
+
+//function sum(arr){
+//    let sum=0;
+//    for(let i=0;i<arr.length;i++){
+//        sum=sum+arr[i];
+//    }
+//    return sum;
+//}
+//let sumarray=[1,2,3,4,5,6];
+//let arrresult=sum(sumarray);
+//console.log(arrresult);
+
+//function multiplication(arr1){
+//    let mul=1;
+//    for(let i=0;i<arr1.length;i++){
+//        mul=mul*arr1[i];
+//    }
+//    return mul;
+//}
+//let mularray=[1,2,3,4,5,6,7,8,9];
+//let result=multiplication(mularray);
+//console.log(result);
+
+//function sub(){
+//    let sub=0;
+//    for(let i=0;i<arguments.length;i++){
+//        sub=sub-arguments[i];
+//    }
+//    return sub;
+//}
+//console.log(sub(-51,1,2,3,4,5));
+
+//let movie=()=>{
+//    console.log("The movie name is Radheshyam");
+//}
+//movie();
+
+//let mul=(val1,val2)=>{
+//    console.log("Multiplication of two numbers is:",val1*val2);
+//}
+//mul(10,5);
+
+//object
+//let userName={
+//    firstname: "Mounika",
+//    lastname: "Sangishetty",
+//    role: "student",
+//    logincount: 25,
+//};
+//console.log(userName);
+//console.log(userName.role);
+//userName.logincount=60;
+//console.log(userName);
+
+//for in
+
+//for(let x in userName){
+//    console.log(x);
+//}
+
+//for(let x in userName){
+//    console.log(userName[x]);
+//}
