@@ -59,4 +59,29 @@ const obj2=new Object();
     }
     //console.log(obj5);
     //console.log(obj5.printComic());
-    console.log(obj5.printComic().printComic().printComic());
+   // console.log(obj5.printComic().printComic().printComic());
+
+
+   var user={
+        firstname: "mounika",
+        lastname: "sangishetty",
+        role: "student",
+        loginCpunt: 32,
+        facebooksignin: true,
+        courseList:[],
+        buyCourse:function(){
+            this.courseList.push("CourseName");
+        },
+        getCourseCount:function(){
+            return `${this.firstname} is enrolled in total of ${this.courseList.length}`
+        }
+   }
+   
+//console.log(user);
+//console.table(user);
+var courseList=true;
+//console.log(user.getCourseCount());
+user.buyCourse("Raect JS course");
+user.buyCourse("Angular course");
+//console.log(user.getCourseCount());
+//console.log(user.buyCourse());
