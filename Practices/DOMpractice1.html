@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Practice1</title>
+</head>
+<body>
+    <h1>Hello JavaScript Bootcamp 2.0</h1>
+    <ul>
+
+    </ul>
+    <ul id="myList">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <script>
+        const list=`
+            <li>Rohith</li>
+            <li>Manas</li>
+            <li>Binod</li>
+            <li>Kunal</li>
+            <li>Bisal</li>
+        `;
+        const ul=document.querySelector("ul");
+        ul.innerHTML=list;
+
+    //create element on screen
+    //let title=document.createElement("h2");
+    //title.className="title";
+    //title.style.fontSize="25px";
+    //title.style.color="green";
+    //title.textContent="Creating New Element in DOM";
+    //document.body.appendChild(title);
+
+    //remove element on screen
+        const val = document.getElementById("myList");
+        val.removeChild(val.firstElementChild)
+    </script>
+</body>
+</html>
