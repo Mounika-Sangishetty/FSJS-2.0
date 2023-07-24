@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle game</title>
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function circle(){
+            let btn=document.createElement("button");
+            btn.className="button";
+            btn.style.padding="10px";
+            btn.style.backgroundColor="white";
+            btn.style.borderRadius="50px";
+            document.body.appendChild(btn);
+
+        }
+        document.addEventListener("click",circle);
+    </script>
+</body>
+</html>

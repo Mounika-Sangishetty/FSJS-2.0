@@ -15,6 +15,8 @@
         <li>Tea</li>
         <li>Milk</li>
     </ul>
+    <button onclick="maths()" id="fsjs2">Submit</button>
+    <p id="js"></p>
     <script>
         const list=`
             <li>Rohith</li>
@@ -35,8 +37,30 @@
     //document.body.appendChild(title);
 
     //remove element on screen
-        const val = document.getElementById("myList");
-        val.removeChild(val.firstElementChild)
+        //const val = document.getElementById("myList");
+        //val.removeChild(val.firstElementChild)
+
+    // for loop
+        //for(let i=0;i<3;i++){
+        //    let pra=document.createElement("p");
+        //    pra.className="FSJS2";
+        //    pra.style.fontSize="16px";
+        //    pra.textContent=i;
+        //    document.body.appendChild(pra);
+        //}
+    //function
+            function maths(){
+                let value=prompt("Solve this 30-20");
+                if(value==10){
+                    document.getElementById("js").innerText="Success Redirect";
+                    document.getElementById("fsjs2").style.backgroundColor="green";
+                }
+                else{
+                    document.getElementById("js").innerText="Fail try again";
+                    document.getElementById("fsjs2").style.backgroundColor="red";
+                }
+            }
+
     </script>
 </body>
 </html>

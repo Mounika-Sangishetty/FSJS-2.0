@@ -350,3 +350,6 @@
 //for(let x in userName){
 //    console.log(userName[x]);
 //}
+ 
+let value="0123456789ABCDEF";
+console.log(value[5]);
