@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circle game</title>
     <style>
+        .circle{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+        }
         body{
+            height: 100vh;
+            width: 100%;
             background-color: black;
         }
     </style>
 </head>
 <body>
     <script>
-        function circle(){
-            let btn=document.createElement("button");
-            btn.className="button";
-            btn.style.padding="10px";
-            btn.style.backgroundColor="white";
-            btn.style.borderRadius="50px";
-        }
+        let body = document.querySelector("body");
+        body.addEventListener("click",function(event) {
+            let element = document.createElement("div");
+            element.classList.add("circle");
+            element.style.left = event.pageX + "px";
+            element.style.top = event.pageY + "px";
+            body.appendChild(element);
+        });
+
+        
     </script>
 </body>
 </html>

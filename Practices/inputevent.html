@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input event</title>
+    <style>
+        body{
+            line-height: 250%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Creating an Account</h1>
+    <h2>Fill the following fields</h2>
+    UserName: <input type="text"><br>
+    Password: <input type="password" id="content">
+    <p id="display"></p>
+    <button>Submit</button>
+    <script>
+        const con=document.getElementById("content");
+        function myfun(){
+            let text=document.getElementById("content").value;
+            document.getElementById("display").innerText="You Wrote:" +text;
+        }
+        con.addEventListener("input",myfun);
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouseover_Event</title>
+</head>
+<body>
+    <h1>This is an example of mouseenter event</h1>
+    <h2>Kindly move the mouse pointer below message</h2>
+    <p id="message">"Hello Everyone"</p>
+    <script>
+        const msg=document.getElementById("message");
+        function myfun2(){
+            document.getElementById("message").style.color="green";
+            document.getElementById('message').style.fontSize="35px";
+        }
+    msg.addEventListener("mouseover",myfun2);
+    function myfun3(){
+            document.getElementById("message").style.color="black";
+            document.getElementById('message').style.fontSize="16px";
+        }
+    msg.addEventListener("mouseout",myfun3);
+    </script>
+</body>
+</html>

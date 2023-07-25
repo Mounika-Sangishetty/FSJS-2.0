@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click_Event</title>
+    <style>
+        #button{
+            padding: 1%;
+            background-color: gray;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <button id="button">Click Here</button>
+    <script>
+        const btn=document.getElementById("button");
+        
+        function click(){
+            let msg=document.createElement("p");
+            msg.className="message";
+            msg.style.fontSize="25px";
+            msg.style.color="green";
+            msg.textContent="Hello this is an example of click event";
+            document.body.appendChild(msg);
+        }
+        btn.addEventListener("click",click);
+    </script>
+</body>
+</html>
