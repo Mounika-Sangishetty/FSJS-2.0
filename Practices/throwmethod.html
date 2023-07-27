@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>throw()</title>
+</head>
+<body>
+    <p>Enter a number between 20 and 50</p>
+    <input type="text" id="text">
+    <button id="test" onclick="myfun()">Test</button>
+    <p id="content"></p>
+    <script>
+        function myfun() {
+            const message = document.getElementById("content");
+            message.innerHTML="";
+            let x = document.getElementById("text").value;
+            try{
+                if(x=="") throw "is empty";
+                if(isNaN(x)) throw "is not a number";
+                if(x<20) throw "is too low";
+                if(x>50) throw "is too high";
+            }catch(err){
+                message.innerHTML = "Input " + err;
+            }
+        }
+    </script>
+</body>
+</html>
