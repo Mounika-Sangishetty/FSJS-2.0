@@ -131,3 +131,64 @@
 //    console.log("I will run");
 //}
 
+//Event loop
+
+//const useOne = () =>{
+//    console.log("Hello One");
+//};
+//const useTwo = () => {
+//    setTimeout(() => {
+//        console.log("Hello I am inside");
+//    }, 3000);
+//    console.log("Hello Two");
+//};
+//const useThree = () => {
+//    console.log("Hello Three");
+//};
+//useOne();
+//useTwo();
+//useThree();
+
+//promise
+
+//const one = () => {
+//    return "I am One";
+//};
+//const two = () => {
+//    return "I am Two";
+//};
+//const three = () => {
+//    return "I am Three";
+//};
+//const CallMe = () => {
+//    let valone = one();
+//    console.log(valone);
+//    let valtwo = two();
+//    console.log(valtwo);
+//    let valthree = three();
+//    console.log(valthree);
+//};
+//CallMe();
+
+const one = () => {
+    return "Index Page";
+};
+const two = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Credential Correct");
+        }, 3000);
+    });
+};
+const three = () => {
+    return "Redirect to home page";
+};
+const CallMe = async () => {
+    let valone = one();
+    console.log(valone);
+    let valtwo = await two();
+    console.log(valtwo);
+    let valthree = three();
+    console.log(valthree);
+};
+CallMe();
