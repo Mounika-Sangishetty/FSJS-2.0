@@ -170,25 +170,41 @@
 //};
 //CallMe();
 
-const one = () => {
-    return "Index Page";
-};
-const two = () => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve("Credential Correct");
-        }, 3000);
-    });
-};
-const three = () => {
-    return "Redirect to home page";
-};
-const CallMe = async () => {
-    let valone = one();
-    console.log(valone);
-    let valtwo = await two();
-    console.log(valtwo);
-    let valthree = three();
-    console.log(valthree);
-};
-CallMe();
+//const one = () => {
+//    return "Index Page";
+//};
+//const two = () => {
+//    return new Promise((resolve, reject) => {
+//        setTimeout(() => {
+//            resolve("Credential Correct");
+//        }, 3000);
+//    });
+//};
+//const three = () => {
+//    return "Redirect to home page";
+//};
+//const CallMe = async () => {
+//    let valone = one();
+//    console.log(valone);
+//    let valtwo = await two();
+//    console.log(valtwo);
+//    let valthree = three();
+//    console.log(valthree);
+//};
+//CallMe();
+
+const makePromise = new Promise((resolve,reject) => {
+    setTimeout(() => {
+        const arrone =["HTML","CSS","javascript","tailwind"];
+        if (arrone.length>0) {
+            resolve("Complete")
+        } else {
+            reject("Incomplete")
+        }
+    }, 2000);
+});
+makePromise.then((result) => {
+    console.log(result);
+}).catch((result) => {
+    console.log(result);
+})
