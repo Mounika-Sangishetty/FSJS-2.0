@@ -1,0 +1,30 @@
+<!--
+    Write a program which tells the number of days in a month, now consider leap year.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap_Year</title>
+</head>
+<body>
+    <script>
+        let value = prompt("Enter any month name");
+        let month = value.toUpperCase();
+        let year = prompt("Enter year");
+        if(month == "JANUARY" || month == "MARCH" || month == "MAY" || month == "JULY" || month == "AUGUST" || month == "OCTOBER" || month == "DECEMBER"){
+            alert(value + " has 31 days");
+        }else if(month == "APRIL" || month == "JUNE" || month == "SEPTEMBER" || month == "NOVEMBER"){
+            alert(value + " has 30 days"); 
+        }else if((month == "FEBRUARY") && (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)){
+            alert(value + " has 29 days");
+        }else if(month == "FEBRUARY"){
+            alert(value + " has 28 days"); 
+        }else{
+            alert("You entered wrong month name");
+        }
+    </script>
+</body>
+</html>
