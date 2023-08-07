@@ -1,0 +1,65 @@
+<!--
+    Write a program to print the given patterns using the loops-
+	a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
+	   *
+	   **
+	   ***
+	
+	b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+	   ***
+	   ***
+	   ***
+
+	c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+	     *
+	    ***
+ 	   *****
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pattern</title>
+</head>
+<body>
+    <script>
+        // Print a triangle pattern
+        let number1 = prompt("Enter any number");
+        let pattern1 = "";
+        for( let i = 1; i <= number1; i++){
+            pattern1 += "*";
+            for( let j = 1; j < i; j++){
+                pattern1 += "*";
+            }
+            pattern1 += "\n";
+        }
+        alert(pattern1);
+
+        // Print a square pattern
+        let number2 = prompt("Enter any number");
+        let pattern2 = "";
+        for( let i = 1; i <= number2; i++){
+            pattern2 += "*";
+            for( let j = 1; j < number2; j++){
+                pattern2 += "*";
+            }
+            pattern2 += "\n";
+        }
+        alert(pattern2);
+
+        //Print a pyramid pattern
+        let number3 = prompt("Enter any number");
+        let pattern3 = "";
+        for(let i = 1; i <= number3; i++){
+            pattern3 += "*";
+            for( let j = 1; j < i; j++){
+                pattern3 += "**";
+            }
+            pattern3 += "\n";
+        }
+        alert(pattern3);
+    </script>
+</body>
+</html>
