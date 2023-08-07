@@ -1,0 +1,34 @@
+<!--
+    Create a simple calculator program in JavaScript which can perform the addition, substraction, multiplication and division on given numbers.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        let number1 = prompt("Enter value1");
+        let number2 = prompt("Enter value2");
+        let operator = prompt("Enter '+' or '-' or '*' or '/'");
+        if (operator === '+') {
+            let value1 = number1 + number2;
+            alert("The addition of " + number1 + " and " + number2 + " is: " + value1);
+        } else if(operator === '-'){
+            let value2 = number1 - number2;
+            alert("The subtraction of " + number1 + " and " + number2 + " is: " + value2);
+        } else if(operator === '*'){
+            let value3 = number1 * number2;
+            alert("The multiplication of " + number1 + " and " + number2 + " is: " + value3);
+        } else if(operator === '/'){
+            let value4 = number1 / number2;
+            alert("The division of " + number1 + " and " + number2 + " is: " + value4);
+        }else{
+            alert("The input entries are wrong");
+        }
+    </script>
+</body>
+</html>

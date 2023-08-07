@@ -31,4 +31,4 @@ function percentage(value1,vaule2){
     return result;
 }
 let per=percentage(66,11);
-console.log(per);
+console.log(sum);
