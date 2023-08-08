@@ -1,3 +1,3 @@
 // Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
 
-const countries = ["India", "Australia", "Bangladesh", "China", "Denmark", "Egypt", "France", "Germany", "Hungary", "Italy", "Japan", "Kuwait", "Lebanon", "Maldives", "Netherlands", "Philippines", "Qatar", "Russia", "Singapore", "Turkey", "United States of America", "Venezuela", "Yemen", "Zimbabwe"];
+export const countries = ["India", "Australia", "Bangladesh", "China", "Denmark", "Egypt", "France", "Germany", "Hungary", "Italy", "Japan", "Kuwait", "Lebanon", "Maldives", "Netherlands", "Philippines", "Qatar", "Russia", "Singapore", "Turkey", "United States of America", "Venezuela", "Yemen", "Zimbabwe"]

@@ -50,16 +50,15 @@
         alert(pattern2);
 
         //Print a pyramid pattern
-        let number3 = prompt("Enter any number");
-        let pattern3 = "";
-        for(let i = 1; i <= number3; i++){
-            pattern3 += "*";
-            for( let j = 1; j < i; j++){
-                pattern3 += "**";
+        function pyramid(num) {
+            for (let i = 1; i <= num; i++) {
+                let space = ' '.repeat(num - i);
+                let stars = '*'.repeat(2 * i - 1);
+                console.log(space + stars);
             }
-            pattern3 += "\n";
         }
-        alert(pattern3);
+        let number3 = 5;
+        pyramid(number3);
     </script>
 </body>
 </html>
