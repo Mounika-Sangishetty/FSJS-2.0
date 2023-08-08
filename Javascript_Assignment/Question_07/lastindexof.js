@@ -4,6 +4,5 @@ let array = ["mounika", "manasa", "pw skills", "mallika", "anusha", "pushpa", "p
 
 let array1 = array.lastIndexOf("pw skills");
 let array2 = array.lastIndexOf("pw skills", 3);
-console.log(array);
 console.log("The last occurance of a word (pw skills) is:", array1);
 console.log("The first occurance of a word (pw skills) is:", array2);
