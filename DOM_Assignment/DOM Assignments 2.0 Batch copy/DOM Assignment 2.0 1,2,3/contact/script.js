@@ -1,0 +1,20 @@
+// Task1
+// Adding values to input fields
+
+let inputform = document.querySelector(".mainRight form");
+let inputName = document.querySelector(".userName");
+let inputEmail = document.querySelector(".userEmail");
+let inputMessage = document.querySelector(".userMessage");
+
+
+let outputName = document.querySelector(".enterName");
+let outputEmail = document.querySelector(".enterMail");
+let outputMessage = document.querySelector(".enterMessage");
+
+inputform.addEventListener("submit", myfun);
+function myfun(entry) {
+    entry.preventDefault();
+    outputName.value = inputName.value;
+    outputEmail.value = inputEmail.value;
+    outputMessage.value = inputMessage.value;
+}
