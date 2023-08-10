@@ -14,7 +14,7 @@ accordian.forEach((element) => {
 // Task1
 // Adding background color to heading
 
-let heading = document.querySelectorAll(".accordian h3");
+let heading = document.querySelectorAll(".accordian > h3");
 heading.forEach(myfun);
 function myfun(h3) {
     h3.style.backgroundColor = "#dadaf8";
@@ -26,7 +26,7 @@ function myfun(h3) {
 let heading4 = document.createElement("div");
 heading4.classList.add("accordian")
 heading4.id = "heading4";
-document.getElementById("headingsection").appendChild(heading4);
+document.querySelector(".accordian-wrapper").appendChild(heading4);
 let skills = document.createElement("h3");
 skills.innerText = "Skills";
 skills.style.backgroundColor = "#dadaf8";
