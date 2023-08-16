@@ -14,8 +14,5 @@ price.textContent = "$10";
 let linkedin = document.querySelector(".footer_social");
 let linkedin_section = document.createElement("div");
 linkedin_section.classList.add("footer_social_ico");
+linkedin_section.innerHTML = '<i class="fa-brands fa-linkedin"></i>';
 linkedin.appendChild(linkedin_section);
-
-let linkedin_logo = document.createElement("i");
-
-linkedin_section.appendChild(linkedin_logo);
