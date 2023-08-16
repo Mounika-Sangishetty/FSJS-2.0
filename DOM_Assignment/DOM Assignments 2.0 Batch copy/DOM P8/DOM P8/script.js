@@ -25,3 +25,15 @@ let body = document.querySelector("body");
 body.style.backgroundImage = "none";
 
 // Task 3
+
+
+let button = document.querySelector(".navbar-toggler");
+button.addEventListener("click", myfunc);
+function myfunc(){
+    let x = document.getElementById("navbarTogglerDemo01");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+}
