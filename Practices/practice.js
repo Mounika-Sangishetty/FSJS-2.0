@@ -351,5 +351,12 @@
 //    console.log(userName[x]);
 //}
  
-let value="0123456789ABCDEF";
-console.log(value[5]);
+/*let value="0123456789ABCDEF";
+console.log(value[5]);*/
+
+//console.log("5" !== 5);
+
+//console.log(1 + '1' - 1);
+
+//console.log(`"5"+2`);
+`${"5"+2}`;
