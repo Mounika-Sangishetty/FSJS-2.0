@@ -57,7 +57,7 @@ span{
     color: slateblue;
 }
 .left p{
-    padding: 10px 0;
+    padding-top: 5%;
     color: grey;
 }
 .left button{
@@ -68,12 +68,8 @@ span{
     padding: 20px 35px;
     margin-top: 45px;
 }
-section.right{
-    position: absolute;
-    right: 15%;
-}
-@media screen and (max-width: 1200px){
-    .left{
-        width: 100%;
-    }
+.right img{
+    padding-top: 5%;
+    width: 700px;
+    height: 480px;
 }
