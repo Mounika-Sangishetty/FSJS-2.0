@@ -158,7 +158,7 @@
 //    console.log(`${j}*${i}=${j*i}`);
 //}
 
-//let names=["Ramakrishna","Mounika","Teja","Aravind","Varalakshmi","jagadeesh","Ruhanshika"];
+let names=["Ramakrishna","Mounika","Teja","Aravind","Varalakshmi","jagadeesh","Ruhanshika"];
 //console.log(names);
 //console.log(names.length);
 //console.log(names[4]);
@@ -359,4 +359,7 @@ console.log(value[5]);*/
 //console.log(1 + '1' - 1);
 
 //console.log(`"5"+2`);
-`${"5"+2}`;
+
+/*const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();
+console.log(fruits);*/
