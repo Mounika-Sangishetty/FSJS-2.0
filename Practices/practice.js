@@ -360,6 +360,10 @@ console.log(value[5]);*/
 
 //console.log(`"5"+2`);
 
-/*const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.shift();
-console.log(fruits);*/
+//const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//fruits.shift();
+//console.log(fruits);
+
+let myname = "mounika";
+console.log(myname);
+
