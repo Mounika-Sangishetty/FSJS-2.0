@@ -10,13 +10,8 @@
 ### Time Taken
 - 3 hours
 
-## [Deployment Link](- HTML5
-- Css3
+## [Deployment Link](https://mounika-trend-landing-page.netlify.app/)
 
-### Time Taken
-- 3 hours
-
-## [Deployment Link](https://anusha-lawhome.netlify.app)
 
 ### Output ###
 
