@@ -4,8 +4,8 @@
 
 ## Trading_Site_Landing_Page ##
 
--- HTML
--- CSS
+- HTML
+- CSS
 
 ### Time Taken
 - 3 hours
