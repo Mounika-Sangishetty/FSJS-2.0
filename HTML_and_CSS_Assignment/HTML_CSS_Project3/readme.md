@@ -16,7 +16,7 @@
 ### Time Taken
 - 3 hours
 
-## [Deployment Link](https://anusha-lawhome.netlify.app))
+## [Deployment Link](https://anusha-lawhome.netlify.app)
 
 ### Output ###
 
