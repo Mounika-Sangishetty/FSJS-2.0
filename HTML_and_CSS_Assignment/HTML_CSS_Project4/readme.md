@@ -4,8 +4,8 @@
 
 ## Headphones_Landing_Page
 
-- HTML5
-- Css3
+- HTML
+- Css
 
 ### Time Taken
 - 3 hours
